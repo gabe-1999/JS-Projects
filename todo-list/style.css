@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Oswald:wght@500&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +10,27 @@ body {
 }
 
 .container {
+    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #D8D8D8;
-    height: 600px;
+    /*height: 600px;*/
     width: 800px;
     border-radius: 16px;
-    opacity: .8;
+    flex-direction: column;
+    background: rgba(216, 216, 216, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.list {
+    margin: 20px;
 }

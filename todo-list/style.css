@@ -25,12 +25,35 @@ body {
     align-items: center;
 }
 
+
+
 .title h1 {
     text-align: center;
-    margin: 20px;
     font-family: 'Oswald', sans-serif;
 }
 
-.list {
+.content {
     margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Nanum Gothic', sans-serif; 
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+table .color {
+    background-color: rgba(64, 142, 145, 0.4);
+}
+
+tbody .bottom-row {
+    border: 0;
+}
+
+th, td {
+    padding: 10px;
 }
